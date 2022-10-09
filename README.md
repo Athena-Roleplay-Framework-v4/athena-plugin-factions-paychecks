@@ -24,4 +24,20 @@ git@github.com:Stuyk/athena-plugin-factions-paychecks.git
 git clone https://github.com/Stuyk/athena-plugin-factions-paychecks
 ```
 
-4. Start the Server
+4. Append the following code to the [Factions Plugin](https://github.com/Stuyk/athena-plugin-factions).
+
+File: `factions/webview/coreInjections.ts`
+
+```ts
+export const FactionCorePageInjections = {
+    actions: {},
+    bank: {
+        BankPaychecks: defineAsyncComponent(() => import('../../athena-plugin-factions-paychecks/components/BankPaychecks.vue')),
+    },
+    members: {},
+    rankings: {},
+    settings: {
+        Paychecks: defineAsyncComponent(() => import('../../athena-plugin-factions-paychecks/components/Paychecks.vue')),
+    },
+};
+```
