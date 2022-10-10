@@ -1,6 +1,6 @@
 # Athena Plugin - Factions Paychecks
 
-A paycheck system for factions for the Athena Framework compatible with `3.9.0` of the [Athena Framework](https://athenaframework.com/).
+A paycheck system for factions for the Athena Framework compatible with `4.0.0` of the [Athena Framework](https://athenaframework.com/).
 
 ## Installation
 
