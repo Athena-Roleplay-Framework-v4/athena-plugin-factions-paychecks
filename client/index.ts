@@ -1,6 +1,7 @@
+import { FactionView } from '@AthenaPlugins/athena-plugin-factions/client/views/factionView';
+import { Faction } from '@AthenaPlugins/athena-plugin-factions/shared/interfaces';
 import * as alt from 'alt-client';
-import { FactionView } from '../../core-factions/client/views/factionView';
-import { Faction } from '../../core-factions/shared/interfaces';
+
 import { F_PAYCHECK_EVENTS, F_PAYCHECK_VIEW_EVENTS } from '../shared/events';
 
 let _view: alt.WebView;
