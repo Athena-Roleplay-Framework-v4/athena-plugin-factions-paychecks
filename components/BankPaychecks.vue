@@ -13,7 +13,7 @@
 <script lang="ts">
 import { defineComponent, defineAsyncComponent } from 'vue';
 import { Vector3 } from '../../../shared/interfaces/vector';
-import { Faction } from '../../core-factions/shared/interfaces';
+import { Faction } from '../../athena-plugin-factions/shared/interfaces';
 import { FactionParser } from '../../core-factions/webview/utility/factionParser';
 import { FactionRank } from '../shared/extensions';
 import { F_PAYCHECK_VIEW_EVENTS } from '../shared/events';
